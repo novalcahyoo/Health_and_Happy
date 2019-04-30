@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Program.ProgramOcd">
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/imageView15"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:lineSpacingExtra="8sp"
+        android:text="1. Air Mineral 2 Gelas"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.526" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/textView51"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:lineSpacingExtra="8sp"
+        android:text="2. Salad Sayur + Dada Ayam"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/textView48"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="30dp"
+        android:lineSpacingExtra="8sp"
+        android:text="1. Air Mineral 2 Gelas "
+        android:textColor="@color/pink"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/imageView16"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="40dp"
+        android:lineSpacingExtra="8sp"
+        android:text="1. Air Mineral 2 - 3 Gelas"
+        android:textColor="@color/pink"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/textView53"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="8sp"
+        android:text="2. Salad Sayur"
+        android:textColor="@color/pink"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/textView54"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="8sp"
+        android:text="3. Dada Ayam"
+        android:textColor="@color/pink"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView55"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="200dp"
+        android:lineSpacingExtra="8sp"
+        android:text="4. Buah kaya Air"
+        android:textColor="@color/pink"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="586dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/textView49"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="8sp"
+        android:text="2. Puasa "
+        android:textColor="@color/pink"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="230dp"
+        android:layout_height="155dp"
+        android:layout_below="@id/imageView16"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/jammlm"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="182dp"
+        android:layout_height="140dp"
+        android:layout_below="@id/imageView15"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="220dp"
+        app:srcCompat="@drawable/jamsiang"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="230dp"
+        android:layout_height="155dp"
+        android:layout_below="@id/textView48"
+        app:srcCompat="@drawable/jamsarapan"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="24sp"
+        android:text="Program Diet OCD"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif-light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="35dp" />
+</RelativeLayout>

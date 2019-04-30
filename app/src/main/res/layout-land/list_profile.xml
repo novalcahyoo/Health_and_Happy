@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/profTNN"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@id/cardCreate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/dark_blue"
+        android:onClick="intentProfile"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nmTNN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:text="Tanni Maisari"
+                android:textColor="@color/amber"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/job1TNN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nmTNN"
+                android:layout_marginLeft="100dp"
+                android:text="- job 1"
+                android:textColor="@color/amber"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/job2TNN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/job1TNN"
+                android:layout_marginLeft="100dp"
+                android:text="- job 2"
+                android:textColor="@color/amber"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/job3TNN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/job2TNN"
+                android:layout_marginLeft="100dp"
+                android:text="- job 3"
+                android:textColor="@color/amber"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/girl4" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/profANS"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@id/profTNN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/dark_blue"
+        android:onClick="intentProfile"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nmANS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:text="Annisa"
+                android:textColor="@color/amber"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/job1ANS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nmANS"
+                android:layout_marginLeft="100dp"
+                android:text="- job 1"
+                android:textColor="@color/amber"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/job2ANS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/job1ANS"
+                android:layout_marginLeft="100dp"
+                android:text="- job 2"
+                android:textColor="@color/amber"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/job3ANS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/job2ANS"
+                android:layout_marginLeft="100dp"
+                android:text="- job 3"
+                android:textColor="@color/amber"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/girl1" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/profERN"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@id/profANS"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/dark_blue"
+        android:onClick="intentProfile"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nmERN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:text="Erny"
+                android:textColor="@color/amber"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/job1ERN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nmERN"
+                android:layout_marginLeft="100dp"
+                android:text="- job 1"
+                android:textColor="@color/amber"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/job2ERN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/job1ERN"
+                android:layout_marginLeft="100dp"
+                android:text="- job 2"
+                android:textColor="@color/amber"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/job3ERN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/job2ERN"
+                android:layout_marginLeft="100dp"
+                android:text="- job 3"
+                android:textColor="@color/amber"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/girl3" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/profANI"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@id/profERN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/dark_blue"
+        android:onClick="intentProfile"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nmANI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:text="Erny"
+                android:textColor="@color/amber"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/job1ANI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nmANI"
+                android:layout_marginLeft="100dp"
+                android:text="- job 1"
+                android:textColor="@color/amber"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/job2ANI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/job1ANI"
+                android:layout_marginLeft="100dp"
+                android:text="- job 2"
+                android:textColor="@color/amber"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/job3ANI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/job2ANI"
+                android:layout_marginLeft="100dp"
+                android:text="- job 3"
+                android:textColor="@color/amber"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/girl2" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
